@@ -78,6 +78,7 @@ function addActor(){
 */
 function getLosses(){
     // Your answer here:
+    return film.boxoffice - film.budget;
 }
 
 
