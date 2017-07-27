@@ -119,4 +119,10 @@ let second = [ "think", "stand", "cheese", "break", "numinous", "mouse", "close"
 function union(){
     let same = [];
     // Your answer here:
+    for(let i=0; i<first.length;i++) {
+      if(first[i] === second[i]) {
+        same.push(first[i]);
+      }
+    }
+    return same;
 }
