@@ -60,6 +60,8 @@ let film = {
 */
 function addBoxOffice(){
     // Your answer here:
+    film.boxoffice = 269061;
+    return film;
 }
 
 /*
