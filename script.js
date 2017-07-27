@@ -36,6 +36,7 @@ function smallNums(){
 */
 function addNums(){
     // Your answer here:
+    return numbers.concat([12,99,101]);
 }
 
 
